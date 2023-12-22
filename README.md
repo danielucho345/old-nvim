@@ -1,4 +1,4 @@
-#Installation 
+# Installation 
 
 install https://github.com/jesseduffield/lazygit
 install https://github.com/BurntSushi/ripgrep
