@@ -10,7 +10,7 @@ vim.keymap.set('n', '<C-g>', builtin.git_files, {})
 local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 
-keymap('n','<leader>ab',':Telescope buffers<CR>',opts) --all buffers
+keymap('n','<leader>pb',':Telescope buffers<CR>',opts) --proyect buffers
 keymap('n','<leader>ps',':Telescope live_grep<CR>',opts) --proyect search
 
 
