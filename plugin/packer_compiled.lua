@@ -189,6 +189,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/danielmora/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/Users/danielmora/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
