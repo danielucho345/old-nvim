@@ -49,6 +49,7 @@ return packer.startup(function(use)
   --                                            MY PLUGINS 
 
   --Telescope
+
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.5',
     -- or                            , branch = '0.1.x',
@@ -93,6 +94,10 @@ return packer.startup(function(use)
   }
   --Discord
   use 'andweeb/presence.nvim'
+  --Lazygit integration
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+  end}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
