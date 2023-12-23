@@ -69,16 +69,7 @@ return packer.startup(function(use)
   use "olimorris/onedarkpro.nvim"
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
-  use {
-    'glepnir/dashboard-nvim',
-    event = 'VimEnter',
-    config = function()
-      require('dashboard').setup {
-        -- config
-      }
-    end,
-    requires = {'nvim-tree/nvim-web-devicons'}
-  } 
+
   --Zen Mode
   use "folke/zen-mode.nvim"
 
