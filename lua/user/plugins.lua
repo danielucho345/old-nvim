@@ -69,7 +69,7 @@ return packer.startup(function(use)
   use "olimorris/onedarkpro.nvim"
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
-  
+
   --Zen Mode
   use "folke/zen-mode.nvim"
 
