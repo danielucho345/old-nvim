@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\DANIEL~1.MOR\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696795921\\share\\lua\\5.1\\?.lua;C:\\Users\\DANIEL~1.MOR\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696795921\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\DANIEL~1.MOR\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696795921\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\DANIEL~1.MOR\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696795921\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\DANIEL~1.MOR\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696795921\\lib\\lua\\5.1\\?.so"
+local package_path_str = "C:\\Users\\PCBLAC~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?.lua;C:\\Users\\PCBLAC~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\PCBLAC~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\PCBLAC~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\PCBLAC~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -81,27 +81,27 @@ _G.packer_plugins = {
   },
   LuaSnip = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
     url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["dashboard-nvim"] = {
@@ -114,33 +114,38 @@ _G.packer_plugins = {
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
+<<<<<<< Updated upstream
     path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
+=======
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+>>>>>>> Stashed changes
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
@@ -150,12 +155,12 @@ _G.packer_plugins = {
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim",
     url = "https://github.com/navarasu/onedark.nvim"
   },
   ["onedarkpro.nvim"] = {
@@ -165,17 +170,17 @@ _G.packer_plugins = {
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\daniel.mora\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
+    path = "C:\\Users\\PC BLACK LION\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
   ["presence.nvim"] = {
