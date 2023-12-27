@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 toggleterm.setup({
-	size = 10,
+	size = 65,
 	open_mapping = [[<c-\>]],
 	hide_numbers = true,
 	shade_filetypes = {},
@@ -77,10 +77,10 @@ end
 local Terminal  = require('toggleterm.terminal').Terminal
 local terminal_config = {
   direction='vertical',
-  hidden = false,
+  hidden = true,
   close_on_exit =false,
-  size =80,
-  start_in_insert = false,
+  size =160,
+  start_in_insert = true,
   }
 local new_terminal = Terminal:new(terminal_config)
 local function terminal_toggler()
