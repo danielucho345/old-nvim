@@ -1,3 +1,11 @@
+local opts = { noremap = true, silent = true }
+
+local term_opts = { silent = true }
+
+-- Shorten function name
+local keymap = vim.api.nvim_set_keymap
+
+
 local function relative_file_path()
  -- local path = vim.fn.expand('%:h') .. '\\' .. vim.fn.expand('%:t')
  local path = vim.fn.expand('%')
@@ -37,4 +45,9 @@ vim.api.nvim_create_user_command("CpRootFilePath", function()
  root_file_path()
 end, {})
 
+
+-- Keymaps
+keymap("n","<leader>rp",":CpRelFilePath<CR>",opts) -- Relative Path
+keymap("n","<leader>fp",":CpFullFilePath<CR>",opts) -- Full Path
+keymap("n","<leader>Fp",":CpRootFilePath<CR>",opts) -- Folder Path
 
