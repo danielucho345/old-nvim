@@ -6,5 +6,5 @@
 
 vim.cmd[[ 
 syntax on
-colorscheme onedark
+colorscheme onedark_vivid
 ]]
