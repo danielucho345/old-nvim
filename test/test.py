@@ -8,6 +8,3 @@ class Myclass(object):
         self.name = 'myname'
         self.createdat = datetime.datetime.now()
     
-
-
-
