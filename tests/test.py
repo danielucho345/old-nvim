@@ -13,3 +13,7 @@ class Test(object):
 print(
     Test().date
 )
+
+import pandas as pd  
+
+df = pd.DataFrame()
